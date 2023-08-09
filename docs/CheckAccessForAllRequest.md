@@ -1,0 +1,29 @@
+# CheckAccessForAllRequest
+
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**tags** | **object** |  | 
+**user_id** | **object** |  | 
+
+## Example
+
+```python
+from coaxial.models.check_access_for_all_request import CheckAccessForAllRequest
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of CheckAccessForAllRequest from a JSON string
+check_access_for_all_request_instance = CheckAccessForAllRequest.from_json(json)
+# print the JSON string representation of the object
+print CheckAccessForAllRequest.to_json()
+
+# convert the object into a dict
+check_access_for_all_request_dict = check_access_for_all_request_instance.to_dict()
+# create an instance of CheckAccessForAllRequest from a dict
+check_access_for_all_request_form_dict = check_access_for_all_request.from_dict(check_access_for_all_request_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
